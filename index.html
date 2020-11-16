@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML Form Elements</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" href="assets/css/screen.css" />
+</head>
+<body>
+
+  <h1>HTML Form Elements</h1>
+
+  <form action="#null" method="get" id="signin">
+    <ol class="form-fields">
+      <li>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+      </li>
+      <li class="password-input">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <a href="#" tabindex="2" class="button">Show Password</a>
+      </li>
+      <li>
+        <label for="submit">Sign In</label>
+        <input type="submit" name="submit" id="submit" value="Sign In" />
+      </li>
+    </ol>
+    <!-- Make checkboxes more accessible with <label> elements:
+      <input type="checkbox" name="terms" id="terms" value="true"/> <label for="terms">I accept the terms of service and have read the blah blah blah</label>
+    -->
+  </form>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
